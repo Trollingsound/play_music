@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #21201efa;
+    --foreground: #ededed;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff3;
+}
+
+::-webkit-scrollbar-track {
+  background: #302e2a;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--foreground);
+  background-position: center;
+  background-size: cover;
+
+  /* background-image: url(https://wallpaperaccess.com/full/1792351.jpg);  */
+  /* background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/94e0074e-500a-476b-8fee-7b002fb13a7e/deco9fu-4133ab3a-3d89-453b-ba9d-5c50c52c21a6.png/v1/fill/w_1214,h_658/render___gojo_satoru__2_by_ryxgagfx_deco9fu-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk0IiwicGF0aCI6IlwvZlwvOTRlMDA3NGUtNTAwYS00NzZiLThmZWUtN2IwMDJmYjEzYTdlXC9kZWNvOWZ1LTQxMzNhYjNhLTNkODktNDUzYi1iYTlkLTVjNTBjNTJjMjFhNi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.byGXrx4AyjL0_oc6yskDdyLoR_2D4LXFkS2o--A6Sv0);  */
+  /* background-image: url(https://i.pinimg.com/originals/ad/e6/17/ade617a053183b9b2eb417f987862721.gif);  */
+  background-image: url(https://i.pinimg.com/originals/c5/c0/40/c5c0409055f67362cec93ebc79a770fa.gif);
+  /* background-image: url(https://i.pinimg.com/736x/ba/41/2f/ba412fe13f90d54ae52cd3c937a19ac8.jpg);  */
+
+  /* background-image: url(https://i.pinimg.com/736x/c0/5c/29/c05c297e85fe1584fbb4a14ee90dd15f.jpg);  */
+  /* best */
+  background-size: contain;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.__className_4b5655 {
+  font-family: __ceraVariable_4b5655, __ceraVariable_Fallback_4b5655
+}
